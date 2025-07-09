@@ -181,13 +181,6 @@ layout: default
 
 </div>
 
-
-
----
-layout: center
-class: text-center
----
-
 ---
 layout: center
 class: text-center
