@@ -206,10 +206,10 @@ class: text-center
     🔗 <span class="font-bold text-lg">Varsayılan Tiplər</span><br> 
     <p class="text-sm">Kodunuzda istifadə edə biləcəyiniz əsas tiplər:</p> 
     <ul class="list-disc list-inside mt-1 text-sm"> 
-      <li>**simvol** (char)</li>
-      <li>**ədəd** (int, float)</li>
-      <li>**mətn** (string)</li>
-      <li>**böyükədəd** (bigint)</li>
+      <li>**simvol**</li>
+      <li>**ədəd,böyükədəd,kiçikədəd,kəsrədəd**</li>
+      <li>**mətn**</li>
+      <li>**məntiqi**</li>
     </ul>
     <h3 class="font-bold mt-3 text-base">Misal:</h3> 
     <div class="bg-black/20 rounded-lg p-2 text-xs font-mono mt-1">
