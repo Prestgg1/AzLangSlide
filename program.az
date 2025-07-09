@@ -1,0 +1,4 @@
+sabit a = 5
+funksiya hesabla(b: ədəd): ədəd
+    qaytar b + 4
+çap(hesabla(a))
