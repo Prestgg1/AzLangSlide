@@ -6,6 +6,7 @@ theme: seriph
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: 👋 AzLang
+favicon: 'https://azlang.pages.dev/favicon.png'
 info: |
   ## Bu təqdimat Azlang haqqında olacaq.
 # apply unocss classes to the current slide
@@ -20,6 +21,8 @@ mdc: true
 # open graph
 # seoMeta:
 #  ogImage: https://cover.sli.dev
+seoMeta:
+  ogTitle: Programing Language
 ---
 
 # 👋 Salam!
@@ -203,7 +206,7 @@ class: text-center
     :enter="final"
     class="bg-white/10 rounded-2xl px-5 py-3 w-80 shadow-lg border border-white/10" 
   >
-    🔗 <span class="font-bold text-lg">Varsayılan Tiplər</span><br> 
+    🔗 <span class="font-bold text-lg">Hazır Tiplər</span><br> 
     <p class="text-sm">Kodunuzda istifadə edə biləcəyiniz əsas tiplər:</p> 
     <ul class="list-disc list-inside mt-1 text-sm"> 
       <li>**simvol**</li>
@@ -225,7 +228,7 @@ funksiya hesabla(b: ədəd): ədəd
     :initial="{ y: 100, opacity: 0, scale: 0.8 }"
     :enter="{ ...final, transition: { delay: 400 } }"
     class="bg-white/10 rounded-2xl px-5 py-3 w-80 shadow-lg border border-white/10"  >
-    🧩 <span class="font-bold text-lg">Özəl Tiplər (Növlər)</span><br> 
+    🧩 <span class="font-bold text-lg">Xüsusi Tiplər (Növlər)</span><br> 
     <p class="text-sm">Özünüzə məxsus tiplər yaradaraq kodunuzu daha ifadəli edin:</p> 
     <ul class="list-disc list-inside mt-1 text-sm"> 
       <li>`növ` bənzəri tiplər</li>
@@ -274,7 +277,7 @@ transition: slide-down
      v-motion
      :initial="{ x: -150, opacity: 0 }"
      :enter="{ x: 0, opacity: 1, transition: { duration: 800 } }">
-  Sürət, Sadəlik, Güc.
+  Sürət, Sadəlik, Təhlükəsizlik.
 </div>
 
 <div class="flex justify-center gap-12">
