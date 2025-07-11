@@ -441,6 +441,16 @@ class: text-center
   </div>
 
 
+  <div
+    v-motion
+    :initial="{ scale: 0.5, opacity: 0 }"
+    :enter="{ scale: 1, opacity: 1, transition: { duration: 500, delay: 1000 } }"
+    class="flex flex-col items-center"
+  >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfhv4TXVsbP_J543GMEY4EHbLPIHXRFdS6CA&s" class="h-20" alt="Turso Logo" />
+    <span class="text-lg font-semibold mt-2">Slidev</span>
+  </div>
+
 </div>
 
 ---
