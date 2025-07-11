@@ -451,6 +451,17 @@ class: text-center
     <span class="text-lg font-semibold mt-2">Slidev</span>
   </div>
 
+ <div
+    v-motion
+    :initial="{ scale: 0.5, opacity: 0 }"
+    :enter="{ scale: 1, opacity: 1, transition: { duration: 500, delay: 1000 } }"
+    class="flex flex-col items-center"
+  >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNlvA02-B3FrOV_HndNTlkJ4udNLNrqZp_Cw&s" class="h-20" alt="Zig Logo" />
+    <span class="text-lg font-semibold mt-2">Zig</span>
+  </div>
+
+
 </div>
 
 ---
