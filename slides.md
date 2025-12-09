@@ -135,7 +135,7 @@ Arasındaki Fərqlər:
 <div v-click>
 📌 **AzLang necədir?**  
 
-AzLang, Zig compiler vasitəsilə **compiler-based** yanaşma istifadə edir.
+AzLang, **hər iki** yanaşmanı birlikdə istifadə edir.
 </div>
 
 
@@ -210,9 +210,9 @@ class: text-center
     <p class="text-sm">Kodunuzda istifadə edə biləcəyiniz əsas tiplər:</p> 
     <ul class="list-disc list-inside mt-1 text-sm"> 
       <li>**simvol**</li>
-      <li>**ədəd,böyükədəd,kiçikədəd,kəsrədəd**</li>
+      <li>**ədəd,böyükədəd,kiçikədəd,kəsr**</li>
       <li>**mətn**</li>
-      <li>**məntiqi**</li>
+      <li>**şərt**</li>
     </ul>
     <h3 class="font-bold mt-3 text-base">Misal:</h3> 
     <div class="bg-black/20 rounded-lg p-2 text-xs font-mono mt-1">
@@ -309,7 +309,7 @@ transition: slide-down
     class="bg-white/10 rounded-2xl px-6 py-4 w-72 shadow-lg border border-white/10"
   >
     📦 <span class="font-bold">Təmiz Kompilyasiya</span><br>
-    Kod → Zig → Executable <br> aydın və nəzarətli çevrilmə
+    Kod → Zig →  Executable <br> aydın və nəzarətli çevrilmə
   </div>
 
 </div>
