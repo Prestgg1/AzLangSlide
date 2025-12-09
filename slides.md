@@ -289,7 +289,7 @@ transition: slide-down
     class="bg-white/10 rounded-2xl px-6 py-4 w-72 shadow-lg border border-white/10"
   >
     🚀 <span class="font-bold">Yüksək Performans</span><br>
-    Zig Compiler ilə <br> C/C++ səviyyəsində sürət
+    Compiler ilə <br> C/C++ səviyyəsində sürət
   </div>
 
   <div
